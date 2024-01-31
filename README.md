@@ -2,22 +2,24 @@
 
 Welcome to the Awesome React Tutorial! This comprehensive guide covers React concepts from beginner to advanced levels, providing hands-on examples and real-world applications.
 
-## Table of Contents
+# Table of Contents
+  ## Beginner Level
 
-1. [Introduction to React](#introduction-to-react)
-2. [Components and Props](#components-and-props)
-3. [State and Lifecycle](#state-and-lifecycle)
-4. [Handling Events](#handling-events)
-5. [Conditional Rendering](#conditional-rendering)
-6. [Lists and Keys](#lists-and-keys)
-7. [Forms and Controlled Components](#forms-and-controlled-components)
-8. [Styling in React](#styling-in-react)
-9. [Real-world Examples](#real-world-examples)
-10. [Best Practices](#best-practices)
-11. [Additional Topics](#additional-topics)
-12. [Repository Structure](#repository-structure)
-13. [Contributing](#contributing)
-14. [License](#license)
+1.   [Introduction to React](#introduction-to-react)
+2.   [JSX](#jsx)
+3. [Components and Props](#components-and-props)
+4. [State and Lifecycle](#state-and-lifecycle)
+5. [Handling Events](#handling-events)
+6. [Conditional Rendering](#conditional-rendering)
+7. [Lists and Keys](#lists-and-keys)
+8. [Forms and Controlled Components](#forms-and-controlled-components)
+9. [Styling in React](#styling-in-react)
+10. [Real-world Examples](#real-world-examples)
+11. [Best Practices](#best-practices)
+12. [Additional Topics](#additional-topics)
+13. [Repository Structure](#repository-structure)
+14. [Contributing](#contributing)
+15. [License](#license)
 
 ## Introduction to React
  React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance. create-react-app is a tool that helps set up a new React project quickly.
@@ -27,6 +29,8 @@ cd my-react-app
 npm start
 ```
 
+## JSX
+JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows developers to write HTML elements and components in a more concise and readable manner within JavaScript files.
 
 ## Components and Props
 
