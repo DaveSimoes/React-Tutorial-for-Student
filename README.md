@@ -3,8 +3,7 @@
 Welcome to the Awesome React Tutorial! This comprehensive guide covers React concepts from beginner to advanced levels, providing hands-on examples and real-world applications.
 
 # Table of Contents
-  ## Beginner Level
-
+  
 1.  [Introduction to React](#introduction-to-react)
 2.  [JSX](#jsx)
 3.  [Functional Components](#functional-components)
@@ -13,7 +12,6 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 6.  [State](#state)
 7.  [Lifecycle Methods](#lifecycle-methods)
 8.  [Events Handling](#events-handling)
-   ## Intermediate Level
 9.  [React Hooks](#react-hooks)
 10. [Controlled Components](#controlled-components)
 11. [Error Boundaries](#error-boundaries)
@@ -21,12 +19,11 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 13. [Rendering Lists](#rendering-lists)
 14. [Context API](#context-api)
 15. [Keys](#keys)
-16. ## Advanced Level
 17. [Forms](#forms)
 18. [Styling in React](#styling-in-react)
 19. [Render Props](#render-props)
 20. [CSS Modules](#css-modules)
-21. [Real-world Examples](#real-world-examples)
+21. [Real-world Examples](#real-world-examples)  
 22. [Best Practices](#best-practices)
 23. [Additional Topics](#additional-topics)
 24. [Repository Structure](#repository-structure)
@@ -34,6 +31,7 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 26. [License](#license)
 
 ## Introduction to React
+
  React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance. The `create-react-app` is a tool that helps set up a new React project quickly.
 ```# Terminal
 npx create-react-app my-react-app
@@ -500,12 +498,202 @@ const CSSModulesExample = () => {
 export default CSSModulesExample;
 ```
 
+## Real-world Examples
+### Example 1: To-Do List Application
+
+Features:
+
+* Adding and removing tasks
+* Marking tasks as completed
+* Filtering tasks (completed/incomplete)
+
+ ```
+import React, { useState } from 'react';
+
+const TodoApp = () => {
+  const [tasks, setTasks] = useState([]);
+  const [newTask, setNewTask] = useState('');
+
+  const addTask = () => {
+    setTasks([...tasks, { text: newTask, completed: false }]);
+    setNewTask('');
+  };
+
+  const toggleTask = (index) => {
+    const updatedTasks = [...tasks];
+    updatedTasks[index].completed = !updatedTasks[index].completed;
+    setTasks(updatedTasks);
+  };
+
+  const removeTask = (index) => {
+    const updatedTasks = [...tasks];
+    updatedTasks.splice(index, 1);
+    setTasks(updatedTasks);
+  };
+
+  return (
+    <div>
+      <input
+        type="text"
+        value={newTask}
+        onChange={(e) => setNewTask(e.target.value)}
+      />
+      <button onClick={addTask}>Add Task</button>
+      <ul>
+        {tasks.map((task, index) => (
+          <li key={index}>
+            <input
+              type="checkbox"
+              checked={task.completed}
+              onChange={() => toggleTask(index)}
+            />
+            <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
+              {task.text}
+            </span>
+            <button onClick={() => removeTask(index)}>Remove</button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default TodoApp;
+```
+
+### Example 2: Weather App
+
+This Weather App example demonstrates a practical application of React concepts, including state management, useEffect for side effects, event handling, API interaction, and conditional rendering. Users can learn how to build a functional weather application and understand the integration of React hooks in real-world scenarios.
 
 
+Fetaures:
+
+Functional Component and State Hooks:
+
+* The WeatherApp component is a functional component.
+* State is managed using the `useState` hook for `weather` and `city`.
+
+ Fetching Data with useEffect:
+
+* The `useEffect` hook is used to perform side effects, such as fetching weather data from the OpenWeatherMap API.
+* The `fetchWeatherData` function is asynchronous and fetches weather data based on the selected city using the `fetch` API.
+
+  Conditional Rendering:
+
+* The weather data is conditionally rendered only if it exists (`weather && ...`).
+
+Event Handling:
+
+* The user input for the city is captured through an input element, and the `setCity` function is called on its `onChange` event.
+
+ API Interaction:
+
+* The OpenWeatherMap API is used to fetch real-time weather data based on the user's selected city.
+* An API key is required for authentication and authorization.
+
+ Dynamically Updating Content:
+
+* The weather data is dynamically updated based on the selected city, and the component re-renders when the city changes.
+
+ Styling:
+
+* Basic styling is applied using standard HTML and inline styles for simplicity.
+
+ Temperature Conversion:
+
+* The temperature is converted from Kelvin to Celsius for better readability.
+
+  ## Best Practices
 
 
+### Structuring React Projects
+
+Best Practices:
+Follow the folder structure conventions (e.g., grouping components, styles, and tests in separate folders).
+Use meaningful names for components, avoiding generic terms like "Item" or "Data".
+Organize code based on features rather than file types (e.g., group components, styles, and tests for a specific feature in the same folder).
+
+Example:
+```
+/src
+  /components
+    /Button
+      Button.js
+      Button.test.js
+      Button.css
+  /features
+    /Todo
+      TodoList.js
+      TodoItem.js
+      TodoForm.js
+  /styles
+    global.css
+  /tests
+    /unit
+      Button.test.js
+    /integration
+      TodoIntegration.test.js
+   ```
 
 
+### Performance Optimization Techniques:
 
+Best Practices:
 
-- [License](./README.md#license): Information about the project's license (e.g., MIT License)
+* Utilize PureComponent or React.memo for components that only re-render when props or state change.
+* Implement code splitting to load only necessary components when needed, improving initial load times.
+* Use lazy loading for components that are not immediately required, enhancing the application's performance.
+
+Example:
+```
+// Using React.memo
+const MemoizedComponent = React.memo(({ data }) => {
+  // Component logic
+});
+
+// Using Code Splitting and Lazy Loading
+const MyComponent = React.lazy(() => import('./MyComponent'));
+
+// In your component
+const App = () => (
+  <React.Suspense fallback={<LoadingSpinner />}>
+    <MyComponent />
+  </React.Suspense>
+);
+```
+
+### Testing React Applications:
+
+Best Practices:
+
+* Write unit tests for individual components using testing libraries like Jest and testing utilities provided by React.
+* Implement integration tests to ensure that different components work together seamlessly.
+* Use tools like React Testing Library for testing user interactions and component behavior.
+
+Example:
+
+```
+// Jest Unit Test
+test('renders correctly', () => {
+  const { getByText } = render(<Button label="Click me" />);
+  expect(getByText('Click me')).toBeInTheDocument();
+});
+
+// Jest Integration Test
+test('increments count on button click', () => {
+  const { getByText } = render(<Counter />);
+  fireEvent.click(getByText('Increment'));
+  expect(getByText('Count: 1')).toBeInTheDocument();
+});
+
+// React Testing Library
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+
+test('clicking button increments count', () => {
+  render(<MyComponent />);
+  userEvent.click(screen.getByRole('button'));
+  expect(screen.getByText('Count: 1')).toBeInTheDocument();
+});
+```
+  
