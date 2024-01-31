@@ -7,7 +7,7 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 
 1.   [Introduction to React](#introduction-to-react)
 2.   [JSX](#jsx)
-3. [Components and Props](#components-and-props)
+3. [Functional Components](#functional-components)
 4. [State and Lifecycle](#state-and-lifecycle)
 5. [Handling Events](#handling-events)
 6. [Conditional Rendering](#conditional-rendering)
@@ -22,7 +22,7 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 15. [License](#license)
 
 ## Introduction to React
- React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance. create-react-app is a tool that helps set up a new React project quickly.
+ React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance. The `create-react-app` is a tool that helps set up a new React project quickly.
 ```# Terminal
 npx create-react-app my-react-app
 cd my-react-app
@@ -31,6 +31,36 @@ npm start
 
 ## JSX
 JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows developers to write HTML elements and components in a more concise and readable manner within JavaScript files.
+
+```// src/App.js
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Hello, React!</h1>
+    </div>
+  );
+}
+
+export default App;
+```
+
+## Functional Components
+Functional components are the simplest form of React components.
+They are JavaScript functions that take props as arguments and return React elements to be rendered.
+
+````
+import React from 'react';
+
+const FunctionalComponent = () => {
+  return <p>This is a functional component.</p>;
+}
+
+export default FunctionalComponent;
+```
+
+
 
 ## Components and Props
 
