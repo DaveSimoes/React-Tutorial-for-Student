@@ -32,7 +32,9 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 ## Introduction to React
 
  React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance. The `create-react-app` is a tool that helps set up a new React project quickly.
-```# Terminal
+ 
+```
+# Terminal
 npx create-react-app my-react-app
 cd my-react-app
 npm start
@@ -943,7 +945,7 @@ Point learners to the official React documentation: [React Documentation](https:
 
 
 
-## Contributiong
+## Contributing
 ## 🤝 Contributing
 
 We appreciate your interest in contributing to this Awesome React Tutorial! Your contributions help make this resource even more valuable for learners at all levels. Whether you're fixing a bug, improving an existing feature, or adding something entirely new, your efforts make a difference.
