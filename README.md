@@ -1,6 +1,6 @@
 
 <h2 align="center">
-  <a href=(#table-of-contents)>Welcome to React for All 🚀</a>
+  Welcome to React for All 🚀
 </h2>
 
 
