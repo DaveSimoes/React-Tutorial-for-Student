@@ -18,7 +18,7 @@ From the fundamentals of components and state management to advanced topics like
 
 ## 🤝 Contributions Welcome
 
-Contributions from the community make this tutorial more vibrant. If you spot an error, want to add a new example, or have ideas for improvement, feel free to contribute! Check out the [Contribution Guideline](#contribution-guideline) to get started.
+Contributions from the community make this tutorial more vibrant. If you spot an error, want to add a new example, or have ideas for improvement, feel free to contribute! Check out the [Contributing Guideline](#contributin-guideline) to get started.
 
 ## ⭐ Show Your Support
 
