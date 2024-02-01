@@ -1,7 +1,7 @@
 <h1 align="center"> Welcome to the React for All Tutorial! 🚀 </h1>
 
 
-![React Tutorial Picture](https://media.licdn.com/dms/image/C4E12AQFdVr18zUa17Q/article-cover_image-shrink_720_1280/0/1624637761724?e=2147483647&v=beta&t=txL8oZw9vpsEAev7vCuRj8GQpDmbmG9FMUnRDtRzXaY)
+![React Tutorial Picture](https://www.apac-insider.com/wp-content/uploads/2023/01/image1-2.jpg)
 
 
 ## 🌐 Dive into React's World
