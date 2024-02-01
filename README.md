@@ -827,9 +827,9 @@ class ErrorBoundary extends React.Component {
 
 Best Practices:
 
-Use semantic HTML elements to provide meaningful structure to the page.
-Include ARIA roles and attributes for enhancing accessibility for screen readers.
-Ensure keyboard navigation is seamless and logical for users who rely on it.
+* Use semantic HTML elements to provide meaningful structure to the page.
+* Include ARIA roles and attributes for enhancing accessibility for screen readers.
+* Ensure keyboard navigation is seamless and logical for users who rely on it.
 
 Example:
 
