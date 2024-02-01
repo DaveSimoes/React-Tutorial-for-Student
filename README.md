@@ -940,7 +940,7 @@ module.exports = {
   
 Example:
 
-Point learners to the official React documentation: [React Documentation](#https://react.dev/)
+Point learners to the official React documentation: [React Documentation](https://react.dev/)
 
 
 
