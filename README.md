@@ -1,7 +1,7 @@
 <h1 align="center"> Welcome to the React for All Tutorial! 🚀 </h1>
 
 
-![React Tutorial Picture](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310153232/ReactJS-Tutorial.jpg)
+![React Tutorial Picture](https://media.licdn.com/dms/image/C4E12AQFdVr18zUa17Q/article-cover_image-shrink_720_1280/0/1624637761724?e=2147483647&v=beta&t=txL8oZw9vpsEAev7vCuRj8GQpDmbmG9FMUnRDtRzXaY)
 
 
 ## 🌐 Dive into React's World
