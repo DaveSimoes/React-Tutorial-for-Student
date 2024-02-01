@@ -26,7 +26,7 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 21. [Real-world Examples](#real-world-examples)  
 22. [Best Practices](#best-practices)
 23. [Additional Topics](#additional-topics)
-24. [🤝 Contributing](#contributing)
+24. [Contributing](#contributing)
 25. [License](#license)
 
 ## Introduction to React
@@ -946,7 +946,7 @@ Point learners to the official React documentation: [React Documentation](https:
 
 
 
-## 🤝 Contributing
+## Contributing
 
 We appreciate your interest in contributing to this Awesome React Tutorial! Your contributions help make this resource even more valuable for learners at all levels. Whether you're fixing a bug, improving an existing feature, or adding something entirely new, your efforts make a difference.
 
