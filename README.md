@@ -53,8 +53,7 @@ Ready to embark on a React journey? Let's code and create something amazing toge
 21. [Real-world Examples](#real-world-examples)  
 22. [Best Practices](#best-practices)
 23. [Additional Topics](#additional-topics)
-24. [Contributing](#contributing)
-25. [License](#license)
+24. [License](#license)
 
 ## Introduction to React
 
