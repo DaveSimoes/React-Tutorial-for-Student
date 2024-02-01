@@ -943,7 +943,7 @@ Point learners to the official React documentation: [React Documentation](https:
 
 
 
-
+## Contributiong
 ## 🤝 Contributing
 
 We appreciate your interest in contributing to this Awesome React Tutorial! Your contributions help make this resource even more valuable for learners at all levels. Whether you're fixing a bug, improving an existing feature, or adding something entirely new, your efforts make a difference.
