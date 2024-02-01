@@ -1,7 +1,7 @@
 
 ![React Tutorial Picture](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310153232/ReactJS-Tutorial.jpg)
 
-# Welcome to the Awesome React Tutorial! 🚀
+# Welcome to the React for All Tutorial! 🚀
 
 Whether you're stepping into the world of React for the first time or you're an experienced developer looking to sharpen your skills, this comprehensive tutorial is crafted just for you.
 
@@ -18,7 +18,7 @@ From the fundamentals of components and state management to advanced topics like
 
 ## 🤝 Contributions Welcome
 
-Contributions from the community make this tutorial more vibrant. If you spot an error, want to add a new example, or have ideas for improvement, feel free to contribute! Check out the [Contribution Guidelines](CONTRIBUTING.md) to get started.
+Contributions from the community make this tutorial more vibrant. If you spot an error, want to add a new example, or have ideas for improvement, feel free to contribute! Check out the [Contribution Guideline](#contribution-guideline) to get started.
 
 ## ⭐ Show Your Support
 
@@ -30,10 +30,6 @@ This tutorial is open-sourced under the [MIT License](LICENSE). Feel free to use
 
 Ready to embark on a React journey? Let's code and create something amazing together! Happy learning! 🚀
 
-
-# React Tutorial
-
-Welcome to the  React For All Tutorial! This comprehensive guide covers React concepts from beginner to advanced levels, providing hands-on examples and real-world applications.
 
 # Table of Contents
   
@@ -979,7 +975,7 @@ Point learners to the official React documentation: [React Documentation](https:
 
 
 
-## Contributing
+## Contributing Guideline
 
 We appreciate your interest in contributing to this Awesome React Tutorial! Your contributions help make this resource even more valuable for learners at all levels. Whether you're fixing a bug, improving an existing feature, or adding something entirely new, your efforts make a difference.
 
