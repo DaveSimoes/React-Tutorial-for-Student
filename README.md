@@ -640,6 +640,63 @@ Event Handling:
 
 * The temperature is converted from Kelvin to Celsius for better readability.
 
+```
+// src/RealWorldExamples/WeatherApp.js
+import React, { useState, useEffect } from 'react';
+
+const WeatherApp = () => {
+  const [weather, setWeather] = useState(null);
+  const [city, setCity] = useState('New York');
+  const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+
+  useEffect(() => {
+    // Fetch weather data from OpenWeatherMap API
+    const fetchWeatherData = async () => {
+      try {
+        const response = await fetch(
+          `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+        );
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch weather data');
+        }
+
+        const data = await response.json();
+        setWeather(data);
+      } catch (error) {
+        console.error(error.message);
+      }
+    };
+
+    fetchWeatherData();
+  }, [city, apiKey]);
+
+  return (
+    <div>
+      <h1>Weather App</h1>
+      <label>
+        Enter City:
+        <input
+          type="text"
+          value={city}
+          onChange={(e) => setCity(e.target.value)}
+        />
+      </label>
+
+      {weather && (
+        <div>
+          <h2>{weather.name}, {weather.sys.country}</h2>
+          <p>Temperature: {Math.round(weather.main.temp - 273.15)}°C</p>
+          <p>Weather: {weather.weather[0].description}</p>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default WeatherApp;
+```
+
   ## Best Practices
 
 
