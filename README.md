@@ -979,5 +979,8 @@ If you encounter any issues or have suggestions for improvement, please open an 
 
 Thank you for considering contributing to this React Tutorial. Your dedication to making this resource better is highly appreciated. Let's learn and grow together!
 
+# ⭐ Liked the React Tutorial?
+
+If you found this React Tutorial helpful, consider giving it a star! ⭐ Your support is incredibly motivating and helps others discover this resource. Thank you for being part of our community and happy coding! 🚀
 
 
