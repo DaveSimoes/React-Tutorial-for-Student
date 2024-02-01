@@ -1,4 +1,7 @@
-# [Welcome to React for All Tutorial](#table-of-contents) 🚀
+
+<h2 align="center">
+  <a href=[Welcome](#table-of-contents)>Welcome to React for All 🚀</a>
+</h2>
 
 
 ![React Tutorial Picture](https://www.apac-insider.com/wp-content/uploads/2023/01/image1-2.jpg)
