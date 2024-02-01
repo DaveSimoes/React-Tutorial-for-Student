@@ -1,3 +1,6 @@
+
+![React Tutorial Picture](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310153232/ReactJS-Tutorial.jpg)
+
 # React Tutorial
 
 Welcome to the Awesome React Tutorial! This comprehensive guide covers React concepts from beginner to advanced levels, providing hands-on examples and real-world applications.
