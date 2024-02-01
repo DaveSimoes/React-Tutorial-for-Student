@@ -1,4 +1,4 @@
-# Welcome to the React for All Tutorial! 🚀
+<h2 align="center"> Welcome to the React for All Tutorial! 🚀 </h2>
 
 Whether you're stepping into the world of React for the first time or you're an experienced developer looking to sharpen your skills, this comprehensive tutorial is crafted just for you.
 
