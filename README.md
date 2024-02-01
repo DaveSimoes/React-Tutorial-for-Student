@@ -1,9 +1,7 @@
-<h1 align="center"> Welcome to the React for All Tutorial! 🚀 </h1>
-
 
 ![React Tutorial Picture](https://www.apac-insider.com/wp-content/uploads/2023/01/image1-2.jpg)
 
-
+<h1 align="center"> Welcome to the React for All Tutorial! 🚀 </h1>
 ## 🌐 Dive into React's World
 
 From the fundamentals of components and state management to advanced topics like hooks, context, and deployment strategies, our tutorial covers a wide spectrum of React concepts. Each section is accompanied by practical examples and real-world applications, ensuring you gain not only theoretical knowledge but also hands-on experience.
