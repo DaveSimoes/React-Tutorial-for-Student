@@ -1,6 +1,6 @@
 <h2 align="center"> Welcome to the React for All Tutorial! 🚀 </h2>
 
-<h4> Whether you're stepping into the world of React for the first time or you're an experienced developer looking to sharpen your skills, this comprehensive tutorial is crafted just for you. </h4>
+<h2> Whether you're stepping into the world of React for the first time or you're an experienced developer looking to sharpen your skills, this comprehensive tutorial is crafted just for you. </h2>
 
 ![React Tutorial Picture](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310153232/ReactJS-Tutorial.jpg)
 
