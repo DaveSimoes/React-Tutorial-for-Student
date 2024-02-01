@@ -1,4 +1,5 @@
-<h1 align="center"> Welcome to the React for All Tutorial! 🚀 </h1>
+<h1 align="center"> React for All Tutorial! 🚀 </h1>
+
 
 ![React Tutorial Picture](https://www.apac-insider.com/wp-content/uploads/2023/01/image1-2.jpg)
 
