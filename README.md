@@ -1,4 +1,4 @@
-<h2 align="center"> Welcome to the React for All Tutorial! 🚀 </h2>
+<h1 align="center"> Welcome to the React for All Tutorial! 🚀 </h1>
 
 
 ![React Tutorial Picture](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230310153232/ReactJS-Tutorial.jpg)
