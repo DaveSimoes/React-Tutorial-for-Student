@@ -1,6 +1,6 @@
 
 <h2 align="center">
-  Welcome to React Brief Tutorial 🚀
+  Welcome to Helpful React Tutorial 🚀
 </h2> 
 
 
