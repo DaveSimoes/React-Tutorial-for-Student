@@ -26,7 +26,7 @@ Welcome to the Awesome React Tutorial! This comprehensive guide covers React con
 21. [Real-world Examples](#real-world-examples)  
 22. [Best Practices](#best-practices)
 23. [Additional Topics](#additional-topics)
-24. [Contributing](#contributing)
+24. [🤝 Contributing](#contributing)
 25. [License](#license)
 
 ## Introduction to React
