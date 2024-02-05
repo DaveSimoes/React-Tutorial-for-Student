@@ -1,7 +1,4 @@
 
-<h2 align="center">
-  React Helpful Tutorial 🚀
-</h2> 
 
 
 ![React Tutorial Picture](https://www.apac-insider.com/wp-content/uploads/2023/01/image1-2.jpg)
