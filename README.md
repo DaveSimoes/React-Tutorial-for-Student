@@ -510,7 +510,7 @@ export default CSSModulesExample;
 ```
 
 ## Exemplos Reais
-### Example 1: To-Do List Application
+### Examplo 1: To-Do List Application
 
 Características:
 
@@ -572,7 +572,7 @@ const TodoApp = () => {
 export default TodoApp;
 ```
 
-### Example 2: Weather App
+### Exemplo 2: Weather App
 
 Este exemplo dessa aplicação meteorológica ilustra a aplicação prática dos conceitos do React, incluindo gerenciamento de estado, useEffect para efeitos secundários, tratamento de eventos, interação com API e renderização condicional. Os usuários podem aprender a criar uma aplicação meteorológica funcional e entender a integração de hooks do React em cenários do mundo real.
 
