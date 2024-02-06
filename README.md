@@ -40,7 +40,7 @@
 20. [CSS Modules](#css-modules)
 21. [Exemplos Reais](#exemplos-reais)  
 22. [Melhores Práticas](#melhores-práticas)
-23. [Tópicos Adicionais](#topicos-adicionais)
+23. [Tópicos Adicionais](#tópicos-adicionais)
 24. [Licença de utilização](#licença-de-utilização)
 
 ## Introdução ao React
