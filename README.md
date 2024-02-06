@@ -12,7 +12,7 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 <div  align= "center">
-<h3><code>Bem-Vindo React Helpful Tutorial - BR</code> Your newest React learning tool</h3>
+<h3><code>Bem-Vindo React Helpful Tutorial - BR</code> Sua mais nova ferramenta de aprendizagem
 </div>
 
 
