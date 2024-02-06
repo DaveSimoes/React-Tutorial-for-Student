@@ -39,7 +39,7 @@
 19. [Render Props](#render-props)
 20. [CSS Modules](#css-modules)
 21. [Exemplos Reais](#exemplos-reais)  
-22. [Melhores Práticas](#melhores-praticas)
+22. [Melhores Práticas](#melhores-práticas)
 23. [Tópicos adicionais](#topicos-adicionais)
 24. [Licença de utilização](#licença-de-utilização)
 
