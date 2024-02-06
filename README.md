@@ -510,7 +510,7 @@ export default CSSModulesExample;
 ```
 
 ## Exemplos Reais
-### Examplo 1: To-Do List Application
+### Exemplo 1: To-Do List Application
 
 Características:
 
