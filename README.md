@@ -150,8 +150,7 @@ export default LifecycleExample;
 
 
 ## Events Handling
-O React utiliza o camelCase para o tratamento de eventos. Podem ser definidas funções para tratar eventos como cliques, alterações, etc., proporcionando interatividade aos componentes.
-
+React uses camelCase to handle events. Functions can be defined to handle events such as clicks, changes, etc., providing interactivity to the components.
 ```
 import React from 'react';
 
