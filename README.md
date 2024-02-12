@@ -1017,27 +1017,26 @@ Thank you for your interest in contributing to this Amazing React Tutorial! Your
 
 6. **Push Changes: Send your changes to the forked repository: `git push origin your-feature`.
 
-7. **Criar um Pull Request**: Abra um pull request no repositório original. Forneça um título claro, descreva suas alterações e envie o pull request.
+7. **Create a Pull Request:** Open a pull request in the original repository. Forneça um título claro, descreva suas alterações e envie o pull request.
 
-## Estilo e padrões de código
+ ## Coding style and standards
 
-- Siga estilos de codificação consistentes.
-- Certifique-se de que seu código esteja bem documentado, especialmente se estiver adicionando novos exemplos ou recursos.
+ Follow consistent coding styles.
+ Make sure your code is well documented, especially if you are adding new examples or features.
+ 
+## Report problems
 
-## Relatar problemas
+If you encounter a problem or have suggestions for improvement, please open a problem in the [Problems] tab (https://github.com/your-username/react-tutorial/issues).
+## Thank you
 
-Se encontrar algum problema ou tiver sugestões de melhoria, por favor abra um problema no separador [Problemas](https://github.com/your-username/react-tutorial/issues).
+Thank you for considering contributing to this React Tutorial. Your dedication to making this resource better is greatly appreciated. Let's learn and grow together!
 
-## Obrigado
-
-Obrigado por considerar contribuir para este Tutorial React. Sua dedicação para tornar este recurso melhor é muito apreciada. Vamos aprender e crescer juntos!
-
-## Licença de utilização
+## License to Use
 <h6 align="center"><a href="/LICENSE">MIT</a> @ David Simoes</h6>
 
-### Gostou do Tutorial de React?
+### Did you like the React Tutorial?
 
 
-Se você achou este Tutorial React útil, considere dar uma estrela! ⭐ O seu apoio é incrivelmente motivador e ajuda outros a descobrir este recurso.
- Obrigado por fazer parte da nossa comunidade e feliz codificação! 🚀
+If you found this React Tutorial useful, consider giving it a star! ⭐ Your support is incredibly motivating and helps others discover this resource.
+ Thank you for being part of our community and hap! 🚀
 
