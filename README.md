@@ -12,12 +12,12 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 <div  align= "center">
-<h3><code>Bem-Vindo React Helpful Tutorial - BR</code> Sua mais nova ferramenta de aprendizagem
+<h3><code>Welcome to Helpful React Tutorial</code>  Your newest learning tool
 </div>
 
 
 
-# 📋 Índice
+# 📋 Index
   
 1.  [Introduction to React](#introduction-to-react)
 2.  [JSX](#jsx)
@@ -43,7 +43,7 @@
 23. [Additional Topics](#additional-topics)
 24. [License to use](#license-to-use)
 
-## Introdução ao React
+## Introduction to React
 React is a JavaScript library for creating user interfaces. It enables developers to build reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance.
 `create-react-app`
  
