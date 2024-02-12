@@ -38,10 +38,10 @@
 18. [Styling in React](#styling-in-react)
 19. [Render Props](#render-props)
 20. [CSS Modules](#css-modules)
-21. [Exemplos Reais](#exemplos-reais)  
-22. [Melhores Práticas](#melhores-práticas)
-23. [Tópicos Adicionais](#tópicos-adicionais)
-24. [Licença de utilização](#licença-de-utilização)
+21. [Real World Examples](#real-world-examples)  
+22. [Best Practices](#best-practices)
+23. [Additional Topics](#additional-topics)
+24. [License to use](#license-to-use)
 
 ## Introdução ao React
 React is a JavaScript library for creating user interfaces. It enables developers to build reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance.
@@ -833,7 +833,7 @@ const CounterRedux = () => {
 };
 ```
 
-### Implementação
+### Deployment
 
 Best practices:
 
