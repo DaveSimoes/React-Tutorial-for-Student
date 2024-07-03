@@ -991,7 +991,7 @@ Thank you for your interest in contributing to this Amazing React Tutorial! Your
 
 1. **Fork the Repository: Click on the "Fork" button in the top right corner of this repository to create your copy.
 
-2. **Clone the Repository: Clone the repository to your local machine using `git clone <repository-url>`.
+2. **Clone the Repository: Clone the repository to your local machine using `git clone https://github.com/DaveSimoes/React-Tutorial-2024.git`
 
 3. **Create a Branch: Create a new branch for your contribution with a descriptive name: `git checkout -b your-feature`.
 
