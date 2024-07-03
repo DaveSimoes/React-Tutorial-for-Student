@@ -1008,10 +1008,6 @@ Thank you for your interest in contributing to this Amazing React Tutorial! Your
  Follow consistent coding styles.
  Make sure your code is well documented, especially if you are adding new examples or features.
  
-## Report problems
-
-If you encounter a problem or have suggestions for improvement, please open a problem in the [Problems] tab (https://github.com/your-username/react-tutorial/issues).
-## Thank you
 
 Thank you for considering contributing to this React Tutorial. Your dedication to making this resource better is greatly appreciated. Let's learn and grow together!
 
