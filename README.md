@@ -5,20 +5,21 @@
 # 📋 Index
   
 1.  [Introduction to React](#introduction-to-react)
-2.  [JSX](#jsx)
-3.  [Functional Components](#functional-components)
-4.  [Class Components](#class-components)
-5.  [Props](#props)
-6.  [State](#state)
-7.  [Lifecycle Methods](#lifecycle-methods)
-8.  [Events Handling](#events-handling)
-9.  [React Hooks](#react-hooks)
-10. [Controlled Components](#controlled-components)
-11. [Error Boundaries](#error-boundaries)
-12. [Higher Order Components](#higher-order-components)
-13. [Rendering Lists](#rendering-lists)
-14. [Context API](#context-api)
-15. [Keys](#keys)
+2.  [Start a New React Project](#start-a-new-react-project)
+3.  [JSX](#jsx)
+4.  [Functional Components](#functional-components)
+5.  [Class Components](#class-components)
+6.  [Props](#props)
+7.  [State](#state)
+8.  [Lifecycle Methods](#lifecycle-methods)
+9.  [Events Handling](#events-handling)
+10.  [React Hooks](#react-hooks)
+11. [Controlled Components](#controlled-components)
+12. [Error Boundaries](#error-boundaries)
+13. [Higher Order Components](#higher-order-components)
+14. [Rendering Lists](#rendering-lists)
+15. [Context API](#context-api)
+16. [Keys](#keys)
 17. [Forms](#forms)
 18. [Styling in React](#styling-in-react)
 19. [Render Props](#render-props)
@@ -38,6 +39,28 @@ npx create-react-app my-react-app
 cd my-react-app
 npm start
 ```
+
+## Start a New React Project
+
+If you want to create a new app or website entirely with React, we suggest choosing one of the React-powered frameworks that are popular in the community.
+
+You can use React without a framework, but we have found that most apps and sites eventually need to address common issues like code splitting, routing, data fetching, and HTML generation. These challenges are not unique to React but are common to all UI libraries.
+
+By starting with a framework, you can quickly get up and running with React and avoid the need to develop your own framework later.
+
+### Next.js 
+
+Next.js’ Pages Router is a full-stack React framework. It’s versatile and lets you create React apps of any size—from a mostly static blog to a complex dynamic application. To create a new Next.js project, run in your terminal:
+
+```
+npx create-next-app@latest
+
+```
+
+Next.js is maintained by [Vercel](https://vercel.com/). You can [deploy a Next.js app](https://nextjs.org/docs/app/building-your-application/deploying) to any Node.js or serverless hosting, or to your own server. Next.js also supports a [static export](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports) which doesn’t require a server.
+
+
+
 
 ## JSX
 JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows developers to write HTML elements and components in a more concise and readable manner within JavaScript files.
