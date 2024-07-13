@@ -36,7 +36,7 @@ It enables developers to build reusable UI components and efficiently update the
 
 ## Start a New React Project
 
-If you want to create a new app or website entirely with React, we suggest choosing one of the React-powered frameworks that are popular in the community.
+If you want to create a new app or website entirely with React, I suggest choosing one of the React-powered frameworks that are popular in the community.
 
 You can use React without a framework, but we have found that most apps and sites eventually need to address common issues like code splitting, routing, data fetching, and HTML generation. These challenges are not unique to React but are common to all UI libraries.
 
