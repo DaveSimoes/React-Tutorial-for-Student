@@ -43,7 +43,7 @@ You can use React without a framework, but we have found that most apps and site
 
 By starting with a framework, you can quickly get up and running with React and avoid the need to develop your own framework later.
 
-### Next.js 
+## Next.js 
 
 Next.js’ Pages Router is a full-stack React framework. It’s versatile and lets you create React apps of any size—from a mostly static blog to a complex dynamic application. To create a new Next.js project, run in your terminal:
 
@@ -55,11 +55,11 @@ npx create-next-app@latest
 Next.js is maintained by [Vercel](https://vercel.com/). You can [deploy a Next.js app](https://nextjs.org/docs/app/building-your-application/deploying) to any Node.js or serverless hosting, or to your own server. Next.js also supports a [static export](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports) which doesn’t require a server.
 
 
-### Next js App Router
+## Next js App Router
 
-**[O *App Router* do Next.js](https://nextjs.org/docs) é uma reformulação das APIs Next.js com o objetivo de cumprir a visão de arquitetura full-stack da equipe React.** Ele permite buscar dados em componentes assíncronos que são executados no servidor ou mesmo durante a construção.
+[O *App Router* do Next.js](https://nextjs.org/docs) is a redesign of the Next.js APIs aiming to fulfill the React team’s full-stack architecture vision. It lets you fetch data in asynchronous components that run on the server or even during the build.
 
-Next.js é mantido pela [Vercel](https://vercel.com/). Você pode [implantar uma aplicação Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para qualquer Node.js ou hospedagem sem servidor, ou para seu próprio servidor. Next.js também suporta [exportação estática](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) que não requer um servidor.
+Next.js is maintained by [Vercel](https://vercel.com/). You can [deploy a Next.js](https://nextjs.org/docs/app/building-your-application/deploying) app to any Node.js or serverless hosting, or to your own server. Next.js also supports [static export](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) which doesn’t require a server.
 
 
 ## JSX
