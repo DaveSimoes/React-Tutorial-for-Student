@@ -6,29 +6,30 @@
   
 1.  [Introduction to React](#introduction-to-react)
 2.  [Start a New React Project](#start-a-new-react-project)
-3.  [Next js App Router](#next-js-app-router)
-4.  [JSX](#jsx)
-5.  [Functional Components](#functional-components)
-6.  [Class Components](#class-components)
-7.  [Props](#props)
-8.  [State](#state)
-9.  [Lifecycle Methods](#lifecycle-methods)
-10.  [Events Handling](#events-handling)
-11.  [React Hooks](#react-hooks)
-12. [Controlled Components](#controlled-components)
-13. [Error Boundaries](#error-boundaries)
-14. [Higher Order Components](#higher-order-components)
-15. [Rendering Lists](#rendering-lists)
-16. [Context API](#context-api)
-17. [Keys](#keys)
-18. [Forms](#forms)
-19. [Styling in React](#styling-in-react)
-20. [Render Props](#render-props)
-21. [CSS Modules](#css-modules)
-22. [Real World Examples](#real-world-examples)  
-23. [Best Practices](#best-practices)
-24. [Additional Topics](#additional-topics)
-25. [License to use](#license-to-use)
+3.  [Next js](#next-js)
+4.  [Next js App Router](#next-js-app-router)
+5.  [JSX](#jsx)
+6.  [Functional Components](#functional-components)
+7.  [Class Components](#class-components)
+8.  [Props](#props)
+9.  [State](#state)
+10.  [Lifecycle Methods](#lifecycle-methods)
+11.  [Events Handling](#events-handling)
+12.  [React Hooks](#react-hooks)
+13. [Controlled Components](#controlled-components)
+14. [Error Boundaries](#error-boundaries)
+15. [Higher Order Components](#higher-order-components)
+16. [Rendering Lists](#rendering-lists)
+17. [Context API](#context-api)
+18. [Keys](#keys)
+19. [Forms](#forms)
+20. [Styling in React](#styling-in-react)
+21. [Render Props](#render-props)
+22. [CSS Modules](#css-modules)
+23. [Real World Examples](#real-world-examples)  
+24. [Best Practices](#best-practices)
+25. [Additional Topics](#additional-topics)
+26. [License to use](#license-to-use)
 
 ## Introduction to React
 React is a JavaScript library for creating user interfaces. 
@@ -43,7 +44,7 @@ You can use React without a framework, but we have found that most apps and site
 
 By starting with a framework, you can quickly get up and running with React and avoid the need to develop your own framework later.
 
-## Next.js 
+## Next js 
 
 [Next.js’ Pages Router](https://nextjs.org/) is a full-stack React framework. It’s versatile and lets you create React apps of any size—from a mostly static blog to a complex dynamic application. To create a new Next.js project, run in your terminal:
 
