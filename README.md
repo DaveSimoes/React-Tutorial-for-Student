@@ -45,7 +45,7 @@ By starting with a framework, you can quickly get up and running with React and 
 
 ## Next.js 
 
-Next.js’ Pages Router is a full-stack React framework. It’s versatile and lets you create React apps of any size—from a mostly static blog to a complex dynamic application. To create a new Next.js project, run in your terminal:
+[Next.js’ Pages Router](https://nextjs.org/) is a full-stack React framework. It’s versatile and lets you create React apps of any size—from a mostly static blog to a complex dynamic application. To create a new Next.js project, run in your terminal:
 
 ```
 npx create-next-app@latest
