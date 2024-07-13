@@ -6,28 +6,29 @@
   
 1.  [Introduction to React](#introduction-to-react)
 2.  [Start a New React Project](#start-a-new-react-project)
-3.  [JSX](#jsx)
-4.  [Functional Components](#functional-components)
-5.  [Class Components](#class-components)
-6.  [Props](#props)
-7.  [State](#state)
-8.  [Lifecycle Methods](#lifecycle-methods)
-9.  [Events Handling](#events-handling)
-10.  [React Hooks](#react-hooks)
-11. [Controlled Components](#controlled-components)
-12. [Error Boundaries](#error-boundaries)
-13. [Higher Order Components](#higher-order-components)
-14. [Rendering Lists](#rendering-lists)
-15. [Context API](#context-api)
-16. [Keys](#keys)
-17. [Forms](#forms)
-18. [Styling in React](#styling-in-react)
-19. [Render Props](#render-props)
-20. [CSS Modules](#css-modules)
-21. [Real World Examples](#real-world-examples)  
-22. [Best Practices](#best-practices)
-23. [Additional Topics](#additional-topics)
-24. [License to use](#license-to-use)
+3.  [Next js App Router](#next-js-app-router)
+4.  [JSX](#jsx)
+5.  [Functional Components](#functional-components)
+6.  [Class Components](#class-components)
+7.  [Props](#props)
+8.  [State](#state)
+9.  [Lifecycle Methods](#lifecycle-methods)
+10.  [Events Handling](#events-handling)
+11.  [React Hooks](#react-hooks)
+12. [Controlled Components](#controlled-components)
+13. [Error Boundaries](#error-boundaries)
+14. [Higher Order Components](#higher-order-components)
+15. [Rendering Lists](#rendering-lists)
+16. [Context API](#context-api)
+17. [Keys](#keys)
+18. [Forms](#forms)
+19. [Styling in React](#styling-in-react)
+20. [Render Props](#render-props)
+21. [CSS Modules](#css-modules)
+22. [Real World Examples](#real-world-examples)  
+23. [Best Practices](#best-practices)
+24. [Additional Topics](#additional-topics)
+25. [License to use](#license-to-use)
 
 ## Introduction to React
 React is a JavaScript library for creating user interfaces. 
@@ -53,12 +54,12 @@ npx create-next-app@latest
 
 Next.js is maintained by [Vercel](https://vercel.com/). You can [deploy a Next.js app](https://nextjs.org/docs/app/building-your-application/deploying) to any Node.js or serverless hosting, or to your own server. Next.js also supports a [static export](https://nextjs.org/docs/pages/building-your-application/deploying/static-exports) which doesn’t require a server.
 
-##Next.js (App Router) 
-Next.js’s App Router is a redesign of the Next.js APIs aiming to fulfill the React team’s full-stack architecture vision. It lets you fetch data in asynchronous components that run on the server or even during the build.
 
-Next.js is maintained by Vercel. You can deploy a Next.js app to any Node.js or serverless hosting, or to your own server. Next.js also supports static export which doesn’t require a server.
+### Next js App Router
 
+**[O *App Router* do Next.js](https://nextjs.org/docs) é uma reformulação das APIs Next.js com o objetivo de cumprir a visão de arquitetura full-stack da equipe React.** Ele permite buscar dados em componentes assíncronos que são executados no servidor ou mesmo durante a construção.
 
+Next.js é mantido pela [Vercel](https://vercel.com/). Você pode [implantar uma aplicação Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para qualquer Node.js ou hospedagem sem servidor, ou para seu próprio servidor. Next.js também suporta [exportação estática](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) que não requer um servidor.
 
 
 ## JSX
