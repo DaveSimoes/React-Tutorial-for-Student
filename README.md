@@ -30,15 +30,9 @@
 24. [License to use](#license-to-use)
 
 ## Introduction to React
-React is a JavaScript library for creating user interfaces. It enables developers to build reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance.
-`create-react-app`
- 
-```
-# Terminal
-npx create-react-app my-react-app
-cd my-react-app
-npm start
-```
+React is a JavaScript library for creating user interfaces. 
+It enables developers to build reusable UI components and efficiently update the DOM by using a virtual DOM for optimal performance.
+
 
 ## Start a New React Project
 
