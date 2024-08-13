@@ -8,28 +8,29 @@
 2.  [Start a New React Project](#start-a-new-react-project)
 3.  [Next js](#next-js)
 4.  [Next js App Router](#next-js-app-router)
-5.  [JSX](#jsx)
-6.  [Functional Components](#functional-components)
-7.  [Class Components](#class-components)
-8.  [Props](#props)
-9.  [State](#state)
-10.  [Lifecycle Methods](#lifecycle-methods)
-11.  [Events Handling](#events-handling)
-12.  [React Hooks](#react-hooks)
-13. [Controlled Components](#controlled-components)
-14. [Error Boundaries](#error-boundaries)
-15. [Higher Order Components](#higher-order-components)
-16. [Rendering Lists](#rendering-lists)
-17. [Context API](#context-api)
-18. [Keys](#keys)
-19. [Forms](#forms)
-20. [Styling in React](#styling-in-react)
-21. [Render Props](#render-props)
-22. [CSS Modules](#css-modules)
-23. [Real World Examples](#real-world-examples)  
-24. [Best Practices](#best-practices)
-25. [Additional Topics](#additional-topics)
-26. [License to use](#license-to-use)
+5.  [Veti](#veti)
+6.  [JSX](#jsx)
+7.  [Functional Components](#functional-components)
+8.  [Class Components](#class-components)
+9.  [Props](#props)
+10.  [State](#state)
+11.  [Lifecycle Methods](#lifecycle-methods)
+12.  [Events Handling](#events-handling)
+13.  [React Hooks](#react-hooks)
+14. [Controlled Components](#controlled-components)
+15. [Error Boundaries](#error-boundaries)
+16. [Higher Order Components](#higher-order-components)
+17. [Rendering Lists](#rendering-lists)
+18. [Context API](#context-api)
+19. [Keys](#keys)
+20. [Forms](#forms)
+21. [Styling in React](#styling-in-react)
+22. [Render Props](#render-props)
+23. [CSS Modules](#css-modules)
+24. [Real World Examples](#real-world-examples)  
+25. [Best Practices](#best-practices)
+26. [Additional Topics](#additional-topics)
+27. [License to use](#license-to-use)
 
 ## Introduction to React
 React is a JavaScript library for creating user interfaces. 
@@ -61,6 +62,45 @@ Next.js is maintained by [Vercel](https://vercel.com/). You can [deploy a Next.j
 [O *App Router* do Next.js](https://nextjs.org/docs) is a redesign of the Next.js APIs aiming to fulfill the React team’s full-stack architecture vision. It lets you fetch data in asynchronous components that run on the server or even during the build.
 
 Next.js is maintained by [Vercel](https://vercel.com/). You can [deploy a Next.js](https://nextjs.org/docs/app/building-your-application/deploying) app to any Node.js or serverless hosting, or to your own server. Next.js also supports [static export](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) which doesn’t require a server.
+
+## Veti
+
+Overview
+Vite (French word for "quick", pronounced /vit/, like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:
+
+A dev server that provides rich feature enhancements over native ES modules, for example extremely fast Hot Module Replacement (HMR).
+
+A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.
+
+Vite is opinionated and comes with sensible defaults out of the box. Read about what's possible in the Features Guide. Support for frameworks or integration with other tools is possible through Plugins. The Config Section explains how to adapt Vite to your project if needed.
+
+### Prerequisites
+Before you begin, make sure you have Node.js installed on your system. If you don’t have it yet, you can download it from the official Node.js website, it’s really simple.
+- Step 1: Create a new Vite project
+To create a new Vite project, open your terminal and run the following command:
+
+```
+npx create-vite your-project-name --template react
+```
+
+ Replace your-project-name with the name you want for your project. Vite supports many frameworks, but in this case, we specify the react template with the --template react option.
+- Step 2: Navigate to the project directory
+Once the Vite project is created, navigate to the project directory:
+
+```
+cd your-project-name
+```
+Don’t forget to replace your-project-name with the actual name you chose for your project (unless of course, you want to keep this name for your project).
+
+- Step 3: Install dependencies and run the development server
+Next, install the necessary dependencies and start the development server:
+```
+npm 
+npm run dev
+```
+
+After running these commands, you should see a message in your terminal indicating that your React website is running on a specific port, it’s usually a ‘random’ port number like http://localhost:5173.
+Now, open your browser and visit the provided URL to see your React website in action.
 
 
 ## JSX
