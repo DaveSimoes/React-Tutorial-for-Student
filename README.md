@@ -1083,6 +1083,6 @@ If you found this React Tutorial useful, consider giving it a star! ⭐ Your sup
  
 
 ## Official Documentation
-Official React documentation: [React Documentation].(https://react.dev/)
+Official React documentation: (https://react.dev/)
 
  
