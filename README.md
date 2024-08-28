@@ -31,6 +31,7 @@
 25. [Best Practices](#best-practices)
 26. [Additional Topics](#additional-topics)
 27. [License to use](#license-to-use)
+28. [Official Documentation](#official-documentation)
 
 ## Introduction to React
 React is a JavaScript library for creating user interfaces. 
@@ -1040,9 +1041,6 @@ module.exports = {
 * Explore tutorials, blog posts and video courses from reliable sources to deepen your knowledge.
 
   
-Examples:
-Point students to the official React documentation: [React Documentation].(https://react.dev/)
-
 
 
 
@@ -1082,4 +1080,9 @@ Thank you for considering contributing to this React Tutorial. Your dedication t
 
 If you found this React Tutorial useful, consider giving it a star! ⭐ Your support is incredibly motivating and helps others discover this resource.
  Thank you for being part of our community and hap! 🚀
+ 
 
+## Official Documentation
+Official React documentation: [React Documentation].(https://react.dev/)
+
+ 
