@@ -1072,8 +1072,7 @@ Thank you for your interest in contributing to this Amazing React Tutorial! Your
 
 Thank you for considering contributing to this React Tutorial. Your dedication to making this resource better is greatly appreciated. Let's learn and grow together!
 
-## License to Use
-<h6 align="center"><a href="/LICENSE">MIT</a> @ David Simoes</h6>
+
 
 ### Did you like the React Tutorial?
 
@@ -1083,6 +1082,7 @@ If you found this React Tutorial useful, consider giving it a star! ⭐ Your sup
  
 
 ## Official Documentation
-Official React documentation: (https://react.dev/)
+<a href="/React Official Documentation">React Official Library</a>
 
- 
+ ## License to Use
+<h6 align="center"><a href="/LICENSE">MIT</a> @ David Simoes</h6>
