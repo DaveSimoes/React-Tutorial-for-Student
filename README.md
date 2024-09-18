@@ -110,9 +110,31 @@ Use React Developer Tools to inspect React components, edit props and state, and
 Browser extension 
 The easiest way to debug websites built with React is to install the React Developer Tools browser extension. It is available for several popular browsers:
 
-[Install for Chrome](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
-Install for Firefox
-Install for Edge
+- [Install for Chrome](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [Install for Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+- [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil)
+
+# Safari and other browsers 
+For other browsers (for example, Safari), install the react-devtools npm package:
+```
+# Yarn
+yarn global add react-devtools
+```
+```
+# Npm
+npm install -g react-devtools
+```
+Next open the developer tools from the terminal:
+```
+react-devtools
+```
+
+Then connect your website by adding the following <script> tag to the beginning of your website’s <head>:
+```
+<html>
+  <head>
+    <script src="http://localhost:8097"></script>
+```
 
 ## JSX
 JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows developers to write HTML elements and components in a more concise and readable manner within JavaScript files.
