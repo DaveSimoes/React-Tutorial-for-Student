@@ -114,7 +114,7 @@ The easiest way to debug websites built with React is to install the React Devel
 - [Install for Firefox](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
 - [Install for Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil)
 
-# Safari and other browsers 
+### Safari and other browsers 
 For other browsers (for example, Safari), install the react-devtools npm package:
 ```
 # Yarn
