@@ -9,29 +9,30 @@
 3.  [Next js](#next-js)
 4.  [Next js App Router](#next-js-app-router)
 5.  [Veti](#veti)
-6.  [JSX](#jsx)
-7.  [Functional Components](#functional-components)
-8.  [Class Components](#class-components)
-9.  [Props](#props)
-10.  [State](#state)
-11.  [Lifecycle Methods](#lifecycle-methods)
-12.  [Events Handling](#events-handling)
-13.  [React Hooks](#react-hooks)
-14. [Controlled Components](#controlled-components)
-15. [Error Boundaries](#error-boundaries)
-16. [Higher Order Components](#higher-order-components)
-17. [Rendering Lists](#rendering-lists)
-18. [Context API](#context-api)
-19. [Keys](#keys)
-20. [Forms](#forms)
-21. [Styling in React](#styling-in-react)
-22. [Render Props](#render-props)
-23. [CSS Modules](#css-modules)
-24. [Real World Examples](#real-world-examples)  
-25. [Best Practices](#best-practices)
-26. [Additional Topics](#additional-topics)
-27. [License to use](#license-to-use)
-28. [Official Documentation](#official-documentation)
+6.  [React Developer Tools](#react-developer-tools)
+7.  [JSX](#jsx)
+8.  [Functional Components](#functional-components)
+9.  [Class Components](#class-components)
+10.  [Props](#props)
+11.  [State](#state)
+12.  [Lifecycle Methods](#lifecycle-methods)
+13.  [Events Handling](#events-handling)
+14.  [React Hooks](#react-hooks)
+15. [Controlled Components](#controlled-components)
+16. [Error Boundaries](#error-boundaries)
+17. [Higher Order Components](#higher-order-components)
+18. [Rendering Lists](#rendering-lists)
+19. [Context API](#context-api)
+20. [Keys](#keys)
+21. [Forms](#forms)
+22. [Styling in React](#styling-in-react)
+23. [Render Props](#render-props)
+24. [CSS Modules](#css-modules)
+25. [Real World Examples](#real-world-examples)  
+26. [Best Practices](#best-practices)
+27. [Additional Topics](#additional-topics)
+28. [License to use](#license-to-use)
+29. [Official Documentation](#official-documentation)
 
 ## Introduction to React
 React is a JavaScript library for creating user interfaces. 
@@ -103,6 +104,15 @@ npm run dev
 After running these commands, you should see a message in your terminal indicating that your React website is running on a specific port, it’s usually a ‘random’ port number like http://localhost:5173.
 Now, open your browser and visit the provided URL to see your React website in action.
 
+## React Developer Tools
+Use React Developer Tools to inspect React components, edit props and state, and identify performance problems.
+
+Browser extension 
+The easiest way to debug websites built with React is to install the React Developer Tools browser extension. It is available for several popular browsers:
+
+[Install for Chrome](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+Install for Firefox
+Install for Edge
 
 ## JSX
 JSX is a syntax extension for JavaScript that looks similar to XML or HTML. It allows developers to write HTML elements and components in a more concise and readable manner within JavaScript files.
