@@ -31,8 +31,9 @@
 25. [Real World Examples](#real-world-examples)  
 26. [Best Practices](#best-practices)
 27. [Additional Topics](#additional-topics)
-28. [License to use](#license-to-use)
-29. [Official Documentation](#official-documentation)
+28. [Communities](#communities)
+29. [License to use](#license-to-use)
+30. [Official Documentation](#official-documentation)
 
 ## Introduction to React
 React is a JavaScript library for creating user interfaces. 
@@ -1115,6 +1116,9 @@ If you found this React Tutorial useful, consider giving it a star! ⭐ Your sup
 
 ## Official Documentation
 <a href="/React Official Documentation">React Official Library</a>
+
+## Communities
+<a href="/DEV’s React community"> DEV’s React community </a>
 
  ## License to Use
 <h6 align="center"><a href="/LICENSE">MIT</a> @ David Simoes</h6>
