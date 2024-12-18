@@ -1118,7 +1118,7 @@ If you found this React Tutorial useful, consider giving it a star! ⭐ Your sup
 <a href="/React Official Documentation">React Official Library</a>
 
 ## Communities
-<a href="/dev.to/t/react"> DEV’s React community </a>
+<a href="https://dev.to/t/react" target="_blank"> DEV’s React community </a>
 
  ## License to Use
 <h6 align="center"><a href="/LICENSE">MIT</a> @ David Simoes</h6>
